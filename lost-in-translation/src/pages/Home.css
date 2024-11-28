@@ -1,0 +1,53 @@
+#home {
+  color: white;
+}
+
+.hero {
+  position: relative;
+
+}
+
+.background {
+  background-color: #F18F01;
+  min-height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-components {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.graphics {
+  flex-grow: 1;
+}
+
+.component {
+  background: white;
+  color: black;
+  max-height: 60px;
+  width: 100%;
+  max-width: 90vw;
+  padding: 24px 24px 40px 24px;
+  border-radius: 8px;
+  border-bottom: 8px solid purple;
+  box-shadow: -7px -8px 23px -5px rgba(107, 107, 107, 0.75);
+  -webkit-box-shadow: -7px -8px 23px -5px rgba(107, 107, 107, 0.75);
+  -moz-box-shadow: -7px -8px 23px -5px rgba(107, 107, 107, 0.75);
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.home-image {
+  height: 120px;
+  float: left;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}

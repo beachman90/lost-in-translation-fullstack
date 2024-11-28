@@ -1,0 +1,33 @@
+.translate-button {
+        background-color: purple;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        margin-left: 48px;
+      }
+      
+      .translate-button:hover {
+        background-color: rgb(209, 36, 209);
+        cursor: pointer;
+        
+      }
+
+      .profile-image {
+        height: 300px;
+      }
+
+      .profile-components {
+        display: flex;
+        margin-left: 48px;
+        margin-right: 48px;
+        justify-content: space-between;
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
+

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+.header {
+  color: white;
+  background-color: #F18F01;
+  border-bottom: 4px solid #b67007;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.header-text {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 32px;
+  color: white;
+  
+}
+ a {
+  text-decoration: none;
+ }
+
+
+.log-out-button {
+  background-color: purple; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.log-out-button:hover {
+  background-color: rgb(209, 36, 209);
+  cursor: pointer;
+}
+
+.profile-name {
+  color: white;
+}
